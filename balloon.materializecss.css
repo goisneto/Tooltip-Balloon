@@ -1,0 +1,33 @@
+.material-balloon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  min-height: 36px;
+  max-width: calc(100% - 4px);
+  min-width: 200px;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 200000001;
+  text-decoration: none;
+  cursor: inherit;
+}
+
+.container-balloon .backdrop {
+  border-radius: 0 !important;
+}
+
+.container-balloon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 8px;
+  font-size: 1rem;
+  border-radius: 2px;
+  color: #fff;
+  line-height: 120%;
+  text-align: center;
+  overflow: hidden;
+}
